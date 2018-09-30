@@ -1,0 +1,8 @@
+<view class="chart-container" >
+<vloading  wx:if="{{refresh}}"></vloading>
+ <scroll-view  scroll-y style="height: {{windowHeight}}px;" bindscrolltoupper="upper" bindscrolltolower="lower">
+    <image wx:for="{{chartData}}" bindlongtap="handleLongTap" data-url="{{item.url}}"  wx:key="index" class="chart-img" src="{{item.url}}" mode="widthFix"></image>
+    <vloading  wx:if="{{moreLoading}}"></vloading>
+  </scroll-view>
+  
+</view>

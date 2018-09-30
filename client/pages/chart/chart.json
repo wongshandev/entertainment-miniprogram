@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "vloading": "../../components/vloading/vloading"
+  }
+}

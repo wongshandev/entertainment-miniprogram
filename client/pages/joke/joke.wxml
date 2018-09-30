@@ -1,0 +1,9 @@
+<view class="home-container" >
+  <view class="item-wrap" wx:for="{{jokeData}}" wx:key="index">
+    <image class="joke-img" src="{{item.bimageuri}}" mode="widthFix"></image>
+    <view class="news-text-wrap">
+      <text class="news-text">{{item.name}}</text>
+      <text class="news-time">{{item.text}}</text>
+    </view>
+  </view>
+</view>

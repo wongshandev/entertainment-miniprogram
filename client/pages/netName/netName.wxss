@@ -1,0 +1,12 @@
+@import "../../lib/style/animate.wxss"
+.name-container{
+  height: 100%;
+  text-align: center;
+}
+.name-item{
+  display: inline-block;
+  margin: 60rpx 0;
+  font-size: 24rpx;
+  min-width: 250rpx;
+  text-align: center;
+}

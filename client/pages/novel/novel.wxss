@@ -1,0 +1,41 @@
+
+.novel-img{
+  /* height: 250rpx; */
+}
+.novel-name{
+  font-size: 28rpx;
+}
+.item-wrap{
+  display: flex;
+  margin: 20rpx 0;
+  align-items:stretch;
+  
+}
+.novel-img{
+  flex:1;
+}
+.novel-text-wrap{
+  padding: 10rpx;
+  flex:1;
+  align-items:stretch;
+  justify-content: space-around;
+}
+.novel-desc{
+  font-size: 24rpx;
+  display: block;
+  overflow: hidden;
+  height: 300rpx;
+}
+.mr5{
+  margin-right: 10rpx;
+}
+.novel-tag{
+  font-size: 24rpx;
+  text-align: right;
+  color: #666;
+}
+.novel-author{
+  font-size: 24rpx;
+  text-align: right;
+  color: #666;
+}

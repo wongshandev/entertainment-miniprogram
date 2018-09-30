@@ -1,0 +1,34 @@
+{
+  "pages":[
+      "pages/news/news",
+      "pages/chart/chart",
+      "pages/netName/netName"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "娱乐一下"
+      },
+      {
+        "pagePath": "pages/chart/chart",
+        "text": "萌妹子~"
+      },
+        {
+          "pagePath": "pages/netName/netName",
+          "text": "个性网名"
+        }
+    ]
+  },
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+}

@@ -1,0 +1,4 @@
+.chart-img{
+  width: 365rpx;
+  margin: 5rpx;
+}

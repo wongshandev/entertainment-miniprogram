@@ -1,0 +1,36 @@
+
+.news-img{
+  width: 375rpx;
+}
+.news-text{
+  font-size: 24rpx;
+}
+.item-wrap{
+  display: flex;
+  margin: 20rpx 0;
+  align-items:stretch;
+  
+}
+.news-img{
+  flex:1;
+}
+.news-text-wrap{
+  padding: 10rpx;
+  flex:1;
+}
+.news-time{
+  font-size: 24rpx;
+  display: block;
+}
+.mr5{
+  margin-right: 10rpx;
+}
+.scroll-wrap{
+  position: relative;
+  top:120rpx;
+  height: calc(100% - 120rpx);
+}
+.no-more-data{
+  text-align: center;
+  
+}

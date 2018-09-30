@@ -1,0 +1,11 @@
+<view class="novel-container" >
+  <view class="item-wrap" wx:for="{{novelData}}" wx:key="index">
+    <image class="novel-img" src="{{item.book_cover}}"></image>
+    <view class="novel-text-wrap">
+      <text class="novel-name">{{item.bookname}}</text>
+      <text class="novel-desc">{{item.book_info}}</text>
+      <view class="novel-author">作者:{{item.author_name}}</view>
+      <view class="novel-tag">{{item.first_cate_name}}</view>
+    </view>
+  </view>
+</view>

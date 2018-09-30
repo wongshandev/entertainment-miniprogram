@@ -1,0 +1,11 @@
+<view class="home-container">
+  <view class="item-wrap" data-link="{{item.link}}" bindtap="handleTap" wx:for="{{newsData}}" wx:key="index">
+    <image class="news-img" src="{{item.picInfo[0].url}}"  mode="widthFix"></image>
+    <view class="news-text-wrap">
+      <text class="news-text">{{item.title}}</text>
+      <text class="news-time">{{item.ptime}}</text>
+    </view>
+  </view>
+  <vloading  wx:if="{{moreLoading}}"></vloading>
+   <view class="no-more-data" wx:if="{{noMore}}">到底了，别扯了</view>
+</view>

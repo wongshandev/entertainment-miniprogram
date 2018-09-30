@@ -1,0 +1,19 @@
+  <view class="header-wrap">
+    <view class="weather">
+    <swiper autoplay circular class="swiper-wrap">
+    <swiper-item class="wether-item" wx:for="{{wether}}" wx:key="index">
+        <text class="mr5">{{item.date}}</text>
+        <text class="mr5">{{item.type}}</text>
+        <text class="mr5">{{item.high}}</text>
+        <text class="mr5">{{item.low}}</text>
+        <text class="mr5">{{item.fengxiang}}</text>
+    </swiper-item>
+    </swiper>
+    </view>
+    <view  class="nav-wrap">
+      <navigator class="nav-item" url="/pages/" hover-class="navigator-hover">新闻</navigator>
+        <navigator class="nav-item" url="/pages/novel/novel" hover-class="other-navigator-hover">小说</navigator>
+        <navigator class="nav-item" url="/pages/joke/joke" hover-class="other-navigator-hover">段子</navigator>
+        <navigator class="nav-item" url="/pages/chart/chart">美图</navigator>
+    </view>
+  </view>

@@ -1,0 +1,26 @@
+.nav-item{
+  padding: 10rpx 40rpx;
+  display: inline-block;
+}
+.weather{
+  border:1px dashed #d9d9d9;
+  height: 40rpx;
+  overflow: hidden;
+  font-size: 24rpx;
+}
+.weather .wether-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.swiper-wrap{
+  height: 40rpx;
+}
+.header-wrap{
+  width: 100%;
+  height:100rpx;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #fff;
+}

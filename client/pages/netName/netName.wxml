@@ -1,0 +1,9 @@
+<view class="name-container">
+  <swiper skip-hidden-item-layout bindchange="handleChange" style="height:{{windowHeight}}px;">
+    <block wx:for="{{swiperList}}">
+      <swiper-item>
+        <text class="name-item bounceIn" style="color:{{item.color}}" wx:for="{{nameList}}">{{item.femalename}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
